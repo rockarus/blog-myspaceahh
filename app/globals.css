@@ -1,12 +1,11 @@
 @import "tailwindcss";
-@import "tailwindcss";
 
 /* =========================
-   THEME (Dark Cyberpunk)
+   THEME (Clean Dark)
 ========================= */
 :root {
   --background: #000000;
-  --foreground: #ffffff;
+  --foreground: #e5e7eb; /* soft white */
 }
 
 /* Tailwind bridge */
@@ -25,94 +24,60 @@ body {
 }
 
 /* =========================
-   NEON GLOW TEXT
+   SUBTLE NEON TEXT
 ========================= */
 
 .neon-blue {
-  color: #00ffff;
-  text-shadow:
-    0 0 5px #00ffff,
-    0 0 10px #00ffff,
-    0 0 20px #00ffff,
-    0 0 40px #00ffff;
+  color: #22d3ee;
+  text-shadow: 0 0 4px rgba(34, 211, 238, 0.5);
 }
 
 .neon-pink {
-  color: #ff00ff;
-  text-shadow:
-    0 0 5px #ff00ff,
-    0 0 10px #ff00ff,
-    0 0 20px #ff00ff,
-    0 0 40px #ff00ff;
+  color: #f472b6;
+  text-shadow: 0 0 4px rgba(244, 114, 182, 0.5);
 }
 
 .neon-yellow {
-  color: #ffff33;
-  text-shadow:
-    0 0 5px #ffff33,
-    0 0 10px #ffff33,
-    0 0 20px #ffea00,
-    0 0 40px #ffea00;
+  color: #facc15;
+  text-shadow: 0 0 4px rgba(250, 204, 21, 0.5);
 }
 
 .neon-green {
-  color: #00ff00;
-  text-shadow:
-    0 0 5px #00ff00,
-    0 0 10px #00ff00,
-    0 0 20px #00ff00,
-    0 0 40px #00ff00;
+  color: #4ade80;
+  text-shadow: 0 0 4px rgba(74, 222, 128, 0.5);
 }
 
 /* =========================
-   NEON FLICKER ANIMATION
+   CLEAN BORDERS (NO GLOW)
 ========================= */
 
-@keyframes flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.85; }
-}
-
-.neon-flicker {
-  animation: flicker 1.5s infinite;
-}
-
-/* =========================
-   CYBERPUNK UI ELEMENTS
-========================= */
-
-/* Neon borders */
 .neon-border-blue {
-  border: 1px solid #00ffff;
-  box-shadow: 0 0 15px #00ffff;
+  border: 1px solid #22d3ee;
 }
 
 .neon-border-pink {
-  border: 1px solid #ff00ff;
-  box-shadow: 0 0 15px #ff00ff;
+  border: 1px solid #f472b6;
 }
 
 .neon-border-yellow {
-  border: 1px solid #ffff33;
-  box-shadow: 0 0 15px #ffff33;
+  border: 1px solid #facc15;
 }
 
 .neon-border-green {
-  border: 1px solid #00ff00;
-  box-shadow: 0 0 15px #00ff00;
+  border: 1px solid #4ade80;
 }
 
-/* Links */
+/* =========================
+   LINKS
+========================= */
 a {
-  color: #00ffff;
+  color: #22d3ee;
   text-decoration: underline;
 }
 
-/* Scrollbar (optional cyber feel) */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #00ffff;
+/* =========================
+   OPTIONAL: SMOOTH TEXT
+========================= */
+* {
+  -webkit-font-smoothing: antialiased;
 }

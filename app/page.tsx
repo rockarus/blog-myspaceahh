@@ -11,7 +11,7 @@ export default function Home() {
             Rockarus' Myspace
           </h1>
           <p className="text-sm mt-2 text-gray-400">
-            Mood: System Online ⚡
+            Redemption when?
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function Home() {
               About Me
             </h2>
             <p>
-              Building in the dark. Breaking systems. Flying too close to the sun.
+              I am not hiding in the shadows. I am the shadows, and class is a torch.
             </p>
           </div>
 
@@ -33,14 +33,12 @@ export default function Home() {
             <h2 className="text-xl font-bold neon-yellow mb-2">
               Blog Posts
             </h2>
-            <p>No posts yet... initializing chaos...</p>
+            <p>Call me Ramsay the way my steak is gor-done.</p>
           </div>
 
           {/* Terminal-style box */}
           <div className="bg-black border border-green-400 p-4 shadow-[0_0_20px_#00ff00] font-mono text-green-400">
-            <p>&gt; system booting...</p>
-            <p>&gt; loading profile...</p>
-            <p>&gt; welcome, Rockarus</p>
+            <p>&gt; Jarvis says hello.</p>
           </div>
 
         </div>
