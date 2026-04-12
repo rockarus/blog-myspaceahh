@@ -1,52 +1,48 @@
 import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-blue-300 to-blue-100 p-4 font-sans">
+    <main className="min-h-screen bg-black text-white flex justify-center p-6">
       
-      {/* Main Container */}
-      <div className="max-w-5xl mx-auto border-4 border-blue-700 bg-white shadow-xl">
-
-        {/* Top Bar */}
-        <div className="bg-blue-700 text-white p-4">
-          <h1 className="text-4xl font-bold">Rockarus' Myspace</h1>
-          <p className="text-sm">Redemption when?</p>
+      <div className="w-full max-w-4xl border border-cyan-400 shadow-[0_0_30px_#00ffff]">
+        
+        {/* Header */}
+        <div className="p-6 border-b border-cyan-400">
+          <h1 className="text-5xl font-bold neon-blue">
+            Rockarus' Myspace
+          </h1>
+          <p className="text-sm mt-2 text-gray-400">
+            Mood: System Online ⚡
+          </p>
         </div>
 
-        {/* Layout */}
-        <div className="flex flex-col md:flex-row">
-          {/* Main Content */}
-          <div className="md:w-2/3 p-4 space-y-4">
+        {/* Content */}
+        <div className="p-6 space-y-6">
 
-            {/* About */}
-            <div className="border border-blue-500 bg-blue-50 p-3">
-              <h2 className="font-bold text-blue-700 mb-1">About Me</h2>
-              <p>
-                Random bullshit goooo
-              </p>
-            </div>
-
-            {/* Blog */}
-            <div className="border border-blue-500 bg-blue-50 p-3">
-              <h2 className="font-bold text-blue-700 mb-1">Blog Posts</h2>
-              <p>No posts yet... but chaos is coming.</p>
-            </div>
-
-            {/* Comments */}
-            <div className="border border-blue-500 bg-blue-50 p-3">
-              <h2 className="font-bold text-blue-700 mb-2">Comments</h2>
-              <div className="space-y-2 text-sm">
-                <p><strong>User1:</strong> This page is 🔥</p>
-                <p><strong>User2:</strong> Peak MySpace energy</p>
-              </div>
-            </div>
-
+          {/* About */}
+          <div className="border border-pink-500 p-4 shadow-[0_0_20px_#ff00ff]">
+            <h2 className="text-xl font-bold neon-pink mb-2">
+              About Me
+            </h2>
+            <p>
+              Building in the dark. Breaking systems. Flying too close to the sun.
+            </p>
           </div>
-        </div>
 
-        {/* Footer */}
-        <div className="bg-blue-700 text-white text-center p-2 text-sm">
-          © 2006 Lorem Ipsum or sum
+          {/* Blog */}
+          <div className="border border-yellow-400 p-4 shadow-[0_0_20px_#ffff33]">
+            <h2 className="text-xl font-bold neon-yellow mb-2">
+              Blog Posts
+            </h2>
+            <p>No posts yet... initializing chaos...</p>
+          </div>
+
+          {/* Terminal-style box */}
+          <div className="bg-black border border-green-400 p-4 shadow-[0_0_20px_#00ff00] font-mono text-green-400">
+            <p>&gt; system booting...</p>
+            <p>&gt; loading profile...</p>
+            <p>&gt; welcome, Rockarus</p>
+          </div>
+
         </div>
 
       </div>

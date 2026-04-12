@@ -1,33 +1,106 @@
 @import "tailwindcss";
+@import "tailwindcss";
 
-/* Theme variables */
+/* =========================
+   THEME (Dark Cyberpunk)
+========================= */
 :root {
-  --background: #000000;      /* black background */
-  --foreground: #ffff00;      /* yellow text */
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
-/* Tailwind theme bridge */
+/* Tailwind bridge */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 }
 
-/* Optional dark mode override (keep consistent) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000000;
-    --foreground: #ffff00;
-  }
-}
-
-/* Global styles */
+/* =========================
+   GLOBAL BASE
+========================= */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Optional: MySpace-style extras */
+/* =========================
+   NEON GLOW TEXT
+========================= */
+
+.neon-blue {
+  color: #00ffff;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+}
+
+.neon-pink {
+  color: #ff00ff;
+  text-shadow:
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+.neon-yellow {
+  color: #ffff33;
+  text-shadow:
+    0 0 5px #ffff33,
+    0 0 10px #ffff33,
+    0 0 20px #ffea00,
+    0 0 40px #ffea00;
+}
+
+.neon-green {
+  color: #00ff00;
+  text-shadow:
+    0 0 5px #00ff00,
+    0 0 10px #00ff00,
+    0 0 20px #00ff00,
+    0 0 40px #00ff00;
+}
+
+/* =========================
+   NEON FLICKER ANIMATION
+========================= */
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.neon-flicker {
+  animation: flicker 1.5s infinite;
+}
+
+/* =========================
+   CYBERPUNK UI ELEMENTS
+========================= */
+
+/* Neon borders */
+.neon-border-blue {
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.neon-border-pink {
+  border: 1px solid #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+.neon-border-yellow {
+  border: 1px solid #ffff33;
+  box-shadow: 0 0 15px #ffff33;
+}
+
+.neon-border-green {
+  border: 1px solid #00ff00;
+  box-shadow: 0 0 15px #00ff00;
+}
 
 /* Links */
 a {
@@ -35,18 +108,11 @@ a {
   text-decoration: underline;
 }
 
-/* Box styling */
-.box {
-  border: 2px solid #ffff00;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-/* Scrollbar (optional retro feel) */
+/* Scrollbar (optional cyber feel) */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: yellow;
+  background: #00ffff;
 }
