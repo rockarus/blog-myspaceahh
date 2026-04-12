@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex justify-center p-6">
@@ -33,12 +35,22 @@ export default function Home() {
             <h2 className="text-xl font-bold neon-yellow mb-2">
               Blog Posts
             </h2>
-            <p>Call me Ramsay the way my steak is gor-done.</p>
+            <p className="mb-2">
+              Call me Ramsay the way my steak is gor-done.
+            </p>
+
+            {/* LINK ADDED HERE */}
+            <Link
+              href="/blog"
+              className="text-cyan-400 underline"
+            >
+              → Enter Blog
+            </Link>
           </div>
 
-          {/* Terminal-style box */}
+          {/* Terminal */}
           <div className="bg-black border border-green-400 p-4 shadow-[0_0_20px_#00ff00] font-mono text-green-400">
-            <p>&gt; Jarvis says hello.</p>
+            <p>&gt; Jarvis says hello</p>
           </div>
 
         </div>
