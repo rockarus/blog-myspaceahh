@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
+/* Theme variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;      /* black background */
+  --foreground: #ffff00;      /* yellow text */
 }
 
+/* Tailwind theme bridge */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
+/* Optional dark mode override (keep consistent) */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000000;
+    --foreground: #ffff00;
   }
 }
 
+/* Global styles */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Optional: MySpace-style extras */
+
+/* Links */
+a {
+  color: #00ffff;
+  text-decoration: underline;
+}
+
+/* Box styling */
+.box {
+  border: 2px solid #ffff00;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Scrollbar (optional retro feel) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
 }
