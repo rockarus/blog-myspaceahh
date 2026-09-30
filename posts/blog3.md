@@ -1,0 +1,13 @@
+---
+title: "I wanna talk about cheese!"
+date: "2026-09-30"
+---
+
+Someone I know to a cursory extent, but dislike the guts of, always gushes about Chungking Express. I don't like him because everything he describes, he brings to it a very outsider-ish perspective, even the stuff that he would (or should) identify with, and that makes listening to him very grating because he just sounds performative like someone trying to fit in for no reason. With his general interests in mind I expected a similar, performative, bland movie going in and maybe that is still impacting my experience of it.
+
+Right from the very beginning of the film it feels like a montage of camera techniques, one of which was notable being the rotating discs (maybe I'm just dumb but they felt like the spinning ballerina illusion for a longer while than I'd like to admit). A seemingly rushed, even hallucinatory pace (with the fps not helping in that depiction) leads to what feels like a very incomplete story with very less actual plot, because by the time things actually get going the first part stops with a literal one-liner conclusion. The second part has a much better pace for a feature film but still has the short film characteristic of a raw slightly abrupt ending with a roughly equal amount of things being said and not said. The sheer tsunami of symbolic representation blare into my ears and saturate my brain to the point where the events happening in the movie's universe all really melt into the themes they represent, carrying no actual progression in time anymore; it's almost like a fever dream, but fortunately, this has just enough structure left, something it shares with the first part. One is really left wondering what the hell is the connection between the stories other than the actual shop; I guess the point was to show the contrast but it remains unclear enough for one to pine for further closure until the end of the film. 
+
+Funny enough that I grabbed one of those jumbo nacho packets as a movie snack; both the movie and the snack felt like something regarded generally popular but definitely too saturated for me, and yet, for some reason, I decided to go through with my decisions anyway. 
+I guess what I'm trying to say is: Think twice before you go for cheesy things.
+
+P.S In the very unlikely case that you have clicked on this post and actually reached the end, DM me if you got the reference in the title.
