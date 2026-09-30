@@ -9,5 +9,3 @@ Right from the very beginning of the film it feels like a montage of camera tech
 
 Looking back, this is quite the quintessential guide for someone behind the screen, but what kind of an experience is it for the audience, really? Funny enough that I grabbed one of those jumbo nacho packets as a movie snack; both the movie and the snack felt like something regarded generally popular but definitely too saturated for me, and yet, for some reason, I decided to go through with my decisions anyway. 
 I guess what I'm trying to say is: Think twice before you go for cheesy things.
-
-P.S In the very unlikely case that you have clicked on this post and actually reached the end, DM me if you got the reference in the title.
